@@ -218,7 +218,7 @@ if __name__ == '__main__':
     print("Current dir   : %s" % pfad2)
     
     file_id1 = 0
-    reportFn = fn_noExt + ".txt"
+    reportFn = fn_noExt + "-report.txt"
     file_id1 = open(reportFn, "w")
     
     ret=writeHeaderLine()
