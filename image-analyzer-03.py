@@ -117,7 +117,8 @@ def getImgInfo(theImg):
         # specify something you look for here
         # like a certain color / lightness value 
         lightness=hls[1]
-        if lightness>=100:
+        # if lightness>=100: # a fixed value
+        if 100 <= lightness <= 120 : # Python interval comparison
             goodFiles.append(fn)
         
         
