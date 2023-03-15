@@ -1,4 +1,4 @@
-# image-tools
+# pyImageTools
 python scripts for image analysis
 
 this is a worker script on my way to sort out images for a time laps video.
